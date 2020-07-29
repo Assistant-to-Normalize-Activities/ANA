@@ -6,7 +6,7 @@ import {
   Brand,
   Title,
   Description,
-} from "../components/Desktop";
+} from "../../components/Desktop";
 
 function Desktop() {
   return (
