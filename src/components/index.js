@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+// Here are the components will inherit more than one time
+// Text typing styles start here
 export const Title = styled.h2`
   font-family: Raleway;
   font-style: normal;
@@ -21,6 +22,7 @@ export const Description = styled.p`
 
   color: ${(props) => (props.primary ? "#55328c" : "#636067")};
 `;
+// Text typing styles finish here
 
 export const Brand = styled.div`
   width: 193px;

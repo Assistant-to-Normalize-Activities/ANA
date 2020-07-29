@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+// Here are the components will be used only by desktop version
 export const Main = styled.div`
   opacity: 1;
   animation: fadeInOpacity 300ms ease-in;
@@ -37,4 +37,3 @@ export const Content = styled.div`
     width: 60%;
   }
 `;
-

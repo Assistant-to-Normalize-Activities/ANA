@@ -2,7 +2,7 @@ import React from "react";
 
 import { Main, Content } from "../../components/Desktop";
 import { Brand, Title, Description } from "../../components";
-
+// Here is just a temporary screen
 function Desktop() {
   return (
     <Main>
@@ -12,7 +12,7 @@ function Desktop() {
       </Content>
 
       <Description primary="true">
-        This service is only avaible on smartphone.
+        This service is only available on smartphone.
       </Description>
     </Main>
   );

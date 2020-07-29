@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+// Here are components will be used just on mobile
 export const Splash = styled.div`
   opacity: 1;
   animation: fadeInOpacity 300ms ease-in;

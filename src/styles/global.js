@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+// Here are the default styled, that are called on ../index.js
 const Global = createGlobalStyle`
   *,
   *::before,

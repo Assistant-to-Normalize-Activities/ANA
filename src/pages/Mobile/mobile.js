@@ -3,7 +3,8 @@ import { useHistory } from "react-router-dom";
 
 import { Splash } from "../../components/Mobile";
 import { Brand, Title } from "../../components";
-
+// First page: here is just a splash screen
+// This screen will redirect to default app
 function Mobile() {
   const history = useHistory();
 

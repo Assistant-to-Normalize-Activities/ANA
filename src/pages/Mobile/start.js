@@ -2,7 +2,8 @@ import React from "react";
 
 import { Splash } from "../../components/Mobile";
 import { Brand, Description, Button } from "../../components";
-
+// This is the page that mobile.js redirects
+// On this screen, the user will can take a qrcode picture
 function Start() {
   return (
     <Splash>
