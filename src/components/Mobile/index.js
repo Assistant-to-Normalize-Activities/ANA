@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Splash = styled.div`
+  opacity: 1;
+  animation: fadeInOpacity 300ms ease-in;
+
   width: 100%;
   min-height: 100vh;
 
@@ -10,8 +13,8 @@ export const Splash = styled.div`
   justify-content: center;
   text-align: center;
 
-  background-color: #55328c;
-  background: url("/images/mainMobile.svg") no-repeat;
-  background-position: bottom center;
-  background-size: cover;
+  background-color: ${(props) => (props.primary ? "#55328c" : "#FFF")};
+  background-image: url("/images/mainMobile.svg");
+  background-position: ${(props) => (props.primary ? "center" : "unset")};
+  background-size: ${(props) => (props.primary ? "cover" : "unset")};
 `;

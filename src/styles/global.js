@@ -20,6 +20,10 @@ const Global = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
+  a {
+    text-decoration: none
+  }
+
   li {
     list-style: none
   }

@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
+  opacity: 1;
+  animation: fadeInOpacity 300ms ease-in;
+
   width: 100%;
   min-height: 100vh;
 
@@ -35,33 +38,3 @@ export const Content = styled.div`
   }
 `;
 
-export const Brand = styled.div`
-  width: 193px;
-  height: 193px;
-  margin: 0 0 2em 0;
-
-  background: url("/images/Brand.png") no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-`;
-
-export const Title = styled.h2`
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #fcfaff;
-`;
-
-export const Description = styled.p`
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-
-  color: #55328c;
-`;

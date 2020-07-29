@@ -1,22 +1,19 @@
 import React from "react";
 
-import {
-  Main,
-  Content,
-  Brand,
-  Title,
-  Description,
-} from "../../components/Desktop";
+import { Main, Content } from "../../components/Desktop";
+import { Brand, Title, Description } from "../../components";
 
 function Desktop() {
   return (
     <Main>
       <Content>
         <Brand />
-        <Title>Assistant to Normalize Activities</Title>
+        <Title primary="true">Assistant to Normalize Activities</Title>
       </Content>
 
-      <Description>This service is only avaible on smartphone.</Description>
+      <Description primary="true">
+        This service is only avaible on smartphone.
+      </Description>
     </Main>
   );
 }
