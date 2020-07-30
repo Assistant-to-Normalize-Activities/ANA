@@ -18,12 +18,17 @@
 
 ## 📝 Table of Contents
 
+- [Challenge](#challenge)
 - [Problem Statement](#problem_statement)
 - [Idea / Solution](#idea)
 - [Roadmap](#future_scope)
 - [Technology Stack](#tech_stack)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
+
+## 🧐 Challenge <a name = "challenge"></a>
+
+Mitigate the impact of COVID-19 and climate change by creating sustainable solutions using open source technology. Get the details on the 2020 Call for Code Global Challenge, understand its two tracks, and start building today.
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
@@ -37,6 +42,7 @@
 - [ReactJS](https://reactjs.org/) - Front-End
 - [Discovery](https://www.ibm.com/cloud/watson-discovery) - IBM Cloud Service
 - [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) - IBM Cloud Service #2
+- [Node SDK](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-nodejs_runtime) - IBM Cloud Service #3
 
 ## ✍️ Team <a name = "authors"></a>
 

@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Splash } from "../../components/Mobile";
+import Scanner from "../../components/Camera";
 
 function QrCode() {
-  return <Splash />;
+  return <Scanner />;
 }
 
 export default QrCode;
