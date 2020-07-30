@@ -10,21 +10,21 @@ import Protocols from "./pages/Mobile/protocols";
 import ChatBot from "./pages/Mobile/chat";
 
 function App() {
-  if (isMobile) {
-    return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Mobile} />
-          <Route path="/app" component={Start} />
-          <Route path="/qrcode" component={QrCode} />
-          <Route path="/protocols" component={Protocols} />
-          <Route path="/chat" component={ChatBot} />
-        </Switch>
-      </Router>
-    );
-  } else {
-    return <Desktop />;
-  }
+	if (isMobile) {
+		return (
+			<Router>
+				<Switch>
+					<Route exact path="/" component={Mobile} />
+					<Route path="/app" component={Start} />
+					<Route path="/qrcode" component={QrCode} />
+					<Route path="/protocols" component={Protocols} />
+					<Route path="/chat" component={ChatBot} />
+				</Switch>
+			</Router>
+		);
+	} else {
+		return <Desktop />;
+	}
 }
 
 export default App;

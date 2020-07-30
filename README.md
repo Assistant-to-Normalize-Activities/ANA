@@ -1,8 +1,8 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./public/images/Brand.png" alt="ANA &nbsp;&bull; Assistant to Normalize Activities"></a>
+ <img src="./public/images/Brand.png" alt="ANA &bull; Assistant to Normalize Activities"></a>
 </p>
-<h3 align="center">ANA &nbsp;&bull; Assistant to Normalize Activities</h3>
+<h3 align="center">ANA &bull; Assistant to Normalize Activities</h3>
 
 <div align="center">
 
@@ -38,19 +38,19 @@ Mitigate the impact of COVID-19 and climate change by creating sustainable solut
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
-- [NodeJs](https://nodejs.org/) - Back-End
-- [ReactJS](https://reactjs.org/) - Front-End
-- [Discovery](https://www.ibm.com/cloud/watson-discovery) - IBM Cloud Service
-- [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) - IBM Cloud Service #2
-- [Node SDK](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-nodejs_runtime) - IBM Cloud Service #3
+- [NodeJs](https://nodejs.org/) &bull; Back-End
+- [ReactJS](https://reactjs.org/) &bull; Front-End
+- [Discovery](https://www.ibm.com/cloud/watson-discovery) &bull; IBM Cloud Service
+- [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) &bull; IBM Cloud Service #2
+- [Node SDK](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-nodejs_runtime) &bull; IBM Cloud Service #3
 
 ## ✍️ Team <a name = "authors"></a>
 
-- [Alberthy](https://www.linkedin.com/in/alberthycoelho/) &nbsp;&bull; UX Designer
-- [Antonio Carlos](https://www.linkedin.com/in/antonio-carlos149376b8/) &nbsp;&bull; Back-End
-- [Esaú Morais](https://linkedin.com/in/emmorais) &nbsp;&bull; Front-End
-- [Felipe Candian](https://www.linkedin.com/in/felipecandian/) &nbsp;&bull; UI/Motion Designer
-- [Rodrigo Temóteo](https://www.linkedin.com/in/rodrigo-de-ara%C3%BAjo-tem%C3%B3teo-42020317/) &nbsp;&bull; Business
+- [Alberthy](https://www.linkedin.com/in/alberthycoelho/) &bull; UX Designer
+- [Antonio Carlos](https://www.linkedin.com/in/antonio-carlos149376b8/) &bull; Back-End
+- [Esaú Morais](https://linkedin.com/in/emmorais) &bull; Front-End
+- [Felipe Candian](https://www.linkedin.com/in/felipecandian/) &bull; UI/Motion Designer
+- [Rodrigo Temóteo](https://www.linkedin.com/in/rodrigo-de-ara%C3%BAjo-tem%C3%B3teo-42020317/) &bull; Business
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 
