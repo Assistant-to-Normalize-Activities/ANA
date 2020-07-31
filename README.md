@@ -43,11 +43,7 @@ ANA will also analyze the emotional traits of the user's audio which will allow 
 
 ## 🚀 Roadmap <a name = "future_scope"></a>
 
-- [ ] Minimum Viable Product - Artificial intelligence working and being initialized by reading a QR Code, transcribing the audio, analyzing the text and checking whether to look for information on the health protocols and security actions in the bank data and inform the user by reading the text found or initiate a friendly conversation with the user. Few possibilities for dialogues and poorly trained artificial intelligence with poor information database.
-
-- [ ] Increase the capacity of artificial intelligence to improve recognition of feelings more quickly, increase the possibilities of dialogues and increase the information stored about health protocols in the database.
-
-- [ ] Insertion of emergency call features and warnings features about what happened nearby. Insertion of the geographic control functionality using the GPS of the user's smartphone to retrieve their position and if it is outside the perimeter of use, the solution is completed automatically.
+![Roadmap](./public/images/readme/Roadmap.png)
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 

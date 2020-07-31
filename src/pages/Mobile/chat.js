@@ -1,47 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
-import api from "../../services/api";
-import { ChatContainer, InputBox, Input, Send } from "../../components/Chat";
+import { ChatContainer } from "../../components/Chat";
 
 function ChatBot() {
-	let [questions, setQuestions] = useState([]);
-	let [answers, setAnswers] = useState([]);
-	let [message, setMessage] = useState("");
-
 	useEffect(() => {
-		async function getSession() {
-			const session = await api.get("/session");
-			console.log(session);
-		}
-
-		getSession();
+		window.watsonAssistantChatOptions = {
+			integrationID: "7fe03166-6dcc-4b9f-a5bf-f4125de6d74d", // The ID of this integration.
+			region: "us-south", // The region your integration is hosted in.
+			serviceInstanceID: "cd8d2ef2-8009-4468-93ae-a5eff5b14f7d", // The ID of your service instance.
+			onLoad: function (instance) {
+				instance.render();
+			}
+		};
+		const t = document.createElement("script");
+		t.src =
+			"https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+		document.head.appendChild(t);
 	}, []);
 
-	async function handleMessage(e) {
-		e.preventDefault();
-
-		const message = await api.post("/message");
-		console.log(message.data.output.generic[0].text);
-	}
-
-	return (
-		<ChatContainer>
-			{questions.map((question) => (
-				<div key={question.id}>
-					<p>{question.data.output.generic[0].text}</p>
-				</div>
-			))}
-			<InputBox onSubmit={handleMessage}>
-				<Input
-					type="text"
-					placeholder="Type your message"
-					value={message}
-					onChange={(e) => setMessage(e.target.value)}
-				/>
-				<Send onClick={() => {}} />
-			</InputBox>
-		</ChatContainer>
-	);
+	return <ChatContainer />;
 }
 
 export default ChatBot;
