@@ -7,6 +7,9 @@ export const ChatContainer = styled.div`
 	background: url("/images/Chat.svg") no-repeat;
 	background-position: top center;
 	background-size: content;
+
+	opacity: 1;
+	animation: fadeInOpacity 300ms ease-in;
 `;
 
 export const InputBox = styled.form`
@@ -40,7 +43,7 @@ export const Send = styled.button`
 	width: 38px;
 	height: 38px;
 
-	background-image: url("/images/Send.svg");
+	background-image: url("/images/icons/Send.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 60%;

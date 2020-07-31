@@ -31,7 +31,6 @@ class CamScanner extends Component {
 					onError={this.handleError}
 					onScan={this.handleScan}
 				/>
-				<p>{this.state.result}</p>
 			</div>
 		);
 	}

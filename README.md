@@ -32,17 +32,30 @@ Mitigate the impact of COVID-19 and climate change by creating sustainable solut
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
+According to psychoanalyst Maria Francisca Mauro, more than 100 days of quarantine, leaving to do the minimum necessary, brought us anguish, fear, uncertainty and many other feelings. However, now that the new measures to reopen commerce and other establishments are scheduled, the idea of ​​leaving home is not that simple. “Many feel fearful about the risk of contamination of themselves or someone in the family, since some share the home with people most vulnerable to COVID-19's clinical complications.
+
+In order for people to return to their activities safely, several health protocols were created for each type of establishment. However, protocols are often long and tiring to read, which may not be effective in keeping people safe and reassured.
+
 ## 💡 Idea / Solution <a name = "idea"></a>
+
+Thinking of helping everyone involved in this resumption of activities in a safe way, our team developed the Assistant to Normalize the Activities solution, ANA our assistant capable of analyzing the user's audio in a few seconds to check which procedure to take in relation to that information based on based on local, regional, national and global health protocols, informing and keeping the user safe quickly and easily.
+ANA will also analyze the emotional traits of the user's audio which will allow their artificial intelligence to initiate a dialogue to calm the user in case he needs it, keeping him and the others in the same place safely.
 
 ## 🚀 Roadmap <a name = "future_scope"></a>
 
+- [ ] Minimum Viable Product - Artificial intelligence working and being initialized by reading a QR Code, transcribing the audio, analyzing the text and checking whether to look for information on the health protocols and security actions in the bank data and inform the user by reading the text found or initiate a friendly conversation with the user. Few possibilities for dialogues and poorly trained artificial intelligence with poor information database.
+
+- [ ] Increase the capacity of artificial intelligence to improve recognition of feelings more quickly, increase the possibilities of dialogues and increase the information stored about health protocols in the database.
+
+- [ ] Insertion of emergency call features and warnings features about what happened nearby. Insertion of the geographic control functionality using the GPS of the user's smartphone to retrieve their position and if it is outside the perimeter of use, the solution is completed automatically.
+
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
+- [Figma](https://figma.com/) &bull; Design/UI
 - [NodeJs](https://nodejs.org/) &bull; Back-End
 - [ReactJS](https://reactjs.org/) &bull; Front-End
 - [Discovery](https://www.ibm.com/cloud/watson-discovery) &bull; IBM Cloud Service
 - [Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) &bull; IBM Cloud Service #2
-- [Node SDK](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-nodejs_runtime) &bull; IBM Cloud Service #3
 
 ## ✍️ Team <a name = "authors"></a>
 

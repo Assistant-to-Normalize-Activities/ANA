@@ -26,7 +26,7 @@ const Global = createGlobalStyle`
   li {
     list-style: none
   }
-  
+
   @keyframes fadeInOpacity {
     0% {
       opacity: 0;

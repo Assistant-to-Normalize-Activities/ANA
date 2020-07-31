@@ -29,7 +29,7 @@ export const Brand = styled.div`
 	height: 193px;
 	margin: 0 0 2em 0;
 
-	background: url("/images/Brand.png") no-repeat;
+	background: url("/images/brands/Brand.png") no-repeat;
 	background-position: bottom center;
 	background-size: cover;
 `;

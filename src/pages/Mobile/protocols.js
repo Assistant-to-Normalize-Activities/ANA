@@ -21,7 +21,7 @@ function Protocols() {
 				Aqui estão os principais protocolos de segurança deste local
 			</Description>
 			<Card>
-				<ProtocolImage src="/images/Alcohol in Gel.svg" alt="Higiene pessoal" />
+				<ProtocolImage src="/images/icons/Alcohol in Gel.svg" alt="Higiene pessoal" />
 				<CardContainer>
 					<ProtocolTitle>Higiene pessoal</ProtocolTitle>
 					<ProtocolDescription terciary="true">
@@ -32,7 +32,7 @@ function Protocols() {
 			</Card>
 			<Card>
 				<ProtocolImage
-					src="/images/Social Distance.svg"
+					src="/images/icons/Social Distance.svg"
 					alt="Distanciamento social"
 				/>
 				<CardContainer>
@@ -43,7 +43,7 @@ function Protocols() {
 				</CardContainer>
 			</Card>
 			<Card>
-				<ProtocolImage src="/images/Protection.svg" alt="Proteção" />
+				<ProtocolImage src="/images/icons/Protection.svg" alt="Proteção" />
 				<CardContainer>
 					<ProtocolTitle>Proteção</ProtocolTitle>
 					<ProtocolDescription terciary="true">
