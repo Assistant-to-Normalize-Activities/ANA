@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { ChatContainer } from "../../components/Chat";
+import { ChatContainer, ChatBalloon, ChatTalk } from "../../components/Chat";
 
 function ChatBot() {
 	useEffect(() => {
@@ -18,7 +18,22 @@ function ChatBot() {
 		document.head.appendChild(t);
 	}, []);
 
-	return <ChatContainer />;
+	return (
+		<ChatContainer>
+			<ChatBalloon>
+				<ChatTalk primary="true">Oi, eu sou a Ana!</ChatTalk>
+			</ChatBalloon>
+			<ChatBalloon>
+				<ChatTalk primary="true">
+					Estou a disposição para lhe ajudar com os protocolos de segurança e de
+					como proceder em relação aos eventos que podem ocorrer neste ambiente.
+				</ChatTalk>
+			</ChatBalloon>
+			<ChatBalloon>
+				<ChatTalk primary="true">O que você gostaria de saber?</ChatTalk>
+			</ChatBalloon>
+		</ChatContainer>
+	);
 }
 
 export default ChatBot;
